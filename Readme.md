@@ -2,8 +2,7 @@
 
 May 24th, 2024
 
-Jorge Albuquerque, Ph.D
-    - https://www.linkedin.com/in/jorgealbuquerque/
+[Jorge Albuquerque, Ph.D](https://www.linkedin.com/in/jorgealbuquerque/)
 
 
 This code finds matching buy and sell orders in "exchange-like" call auctions.
@@ -48,9 +47,9 @@ The orders can be "partially filled" as well:
 
 
 
-Quick, accurate order matching is a critical component of an exchange. Investors, particularly active investors and day traders, will look for ways to minimize inefficiencies in trading from every possible source. A slow order-matching system may cause buyers or sellers to execute trades at less-than-ideal prices, eating into investors’ profits. If some order-matching protocols tend to favor buyers, and others favor sellers, these methods become exploitable.
+Quick, accurate order matching is a critical component of an exchange. Investors, particularly active investors and day traders, will look for ways to minimize inefficiencies in trading from every possible source. A slow order-matching system may cause buyers or sellers to execute trades at less-than-ideal prices, eating into investorsâ€™ profits. If some order-matching protocols tend to favor buyers, and others favor sellers, these methods become exploitable.
 
-This is one of the areas where high-frequency trading (HFT) was able to improve efficiency. Exchanges aim to prioritize trades in a way that benefits buyers and sellers equally so as to maximize order volume—the lifeblood of the exchange (investopedia)[https://www.investopedia.com/terms/m/matchingorders.asp].
+This is one of the areas where high-frequency trading (HFT) was able to improve efficiency. Exchanges aim to prioritize trades in a way that benefits buyers and sellers equally so as to maximize order volumeâ€”the lifeblood of the exchange ([investopedia](https://www.investopedia.com/terms/m/matchingorders.asp)).
 
 
 ## The Code
@@ -65,7 +64,7 @@ In practice, this is a FIFO algorithm (or price-time-priority algorithm), the ea
 
 Specifing different criteria, a different algorithmical approach should be used!!
 
-Assuming only the time execution as the only criteria, this code follow time complexity O(n) of algorithm described as "unsorted greedy" order pair matching (Algorithm 1, page 31) in (Jonsou, V. and Steen, A. (2023))[https://www.diva-portal.org/smash/get/diva2:1765801/FULLTEXT01.pdf].
+Assuming only the time execution as the only criteria, this code follow time complexity O(n) of algorithm described as "unsorted greedy" order pair matching (Algorithm 1, page 31) in [Jonsou, V. and Steen, A. (2023)](https://www.diva-portal.org/smash/get/diva2:1765801/FULLTEXT01.pdf).
 
 The algorithm was adapted to multithreading (with locking at order filling level), and O(1) random access for different security or users. 
 
@@ -118,7 +117,8 @@ Opens the file "CachedOrders.sln"
 ## License
 
 
-Copyright (c) 2024, Jorge Albuquerque (https://www.linkedin.com/in/jorgealbuquerque/)
+Copyright (c) 2024, [Jorge Albuquerque](https://www.linkedin.com/in/jorgealbuquerque/) 
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
