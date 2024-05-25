@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="OrderCache.cpp" />
+    <ClCompile Include="OrderCacheTests.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OrderCache.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="docs">
+      <UniqueIdentifier>{5999d72e-136e-4a24-b0cc-823424fec66c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="docs\README.txt">
+      <Filter>docs</Filter>
+    </Text>
+    <Text Include="docs\TESTING.txt">
+      <Filter>docs</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="docs\paper.pdf">
+      <Filter>docs</Filter>
+    </None>
+  </ItemGroup>
+</Project>

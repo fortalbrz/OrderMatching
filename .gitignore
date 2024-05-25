@@ -1,11 +1,23 @@
 # Prerequisites
 *.d
+\x86
+\x64
+\.vs
+\packages
+\CachedOrders\x86
+\CachedOrders\x64
+\CachedOrders\docs\*.txt
+\CachedOrders\.vs
+\CachedOrders\packages\
+
 
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+*.zip
+# *.txt
 
 # Precompiled Headers
 *.gch
