@@ -17,7 +17,7 @@
 *.o
 *.obj
 *.zip
-# *.txt
+*.txt
 
 # Precompiled Headers
 *.gch
